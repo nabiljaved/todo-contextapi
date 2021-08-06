@@ -2,11 +2,11 @@ import React from 'react'
 import { StyleSheet, View, Text } from 'react-native'
 
 
-const Header = () => {
+const Header = ({title}) => {
 
     return(
         <View style={styles.container}>
-             <Text style={styles.textStyle}>Add Do List App</Text>   
+             <Text style={styles.textStyle}>{title}</Text>   
         </View>
     )
 
